@@ -12,8 +12,8 @@ email=sig.caceres@ayto-caceres.es
 
 about=Gestión del SIG de Cáceres. Menú de carga de capas WMS
 
-tracker=https://sig.caceres.es/
-repository=https://sig.caceres.es/
+tracker=https://github.com/sigCaceres/wms_sig_caceres
+repository=https://github.com/sigCaceres/wms_sig_caceres
 # End of mandatory metadata
 
 # Recommended items:
