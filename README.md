@@ -5,7 +5,7 @@
 Aplicación que permite consultar varias capas en formato WMS de la IDE de Cáceres 
 
 
-![Iconos](C:\Proyectos\Caceres\Plugins\modificados_Febrero_2025\sigcaceres_wms\sigcaceres_wms\doc\plantilla.png)
+![Iconos](https://github.com/sigCaceres/wms_sig_caceres/blob/develop/doc/plantilla.png)
 
 ## Características:
 Permite visualizar:
