@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/plugins/sig_caceres">
+    <file>iconos/infraestructuras.png</file>   
+    <file>iconos/busqueda.png</file>
+    <file>iconos/trama_urbana.png</file>
+    <file>iconos/vegetacion.png</file>
+    <file>iconos/mobiliario_urbano.png</file>
+    <file>iconos/hidrografia.png</file>
+    <file>iconos/relieve.png</file>
+    <file>iconos/vias_comunicacion.png</file>
+    <file>iconos/carga_cartografia.png</file>
+    <file>iconos/luz-de-la-calle.png</file>
+    <file>iconos/papeleras.png</file>
+	  <file>iconos/logo-ayto.png</file>
+	  <file>iconos/logo-sig.png</file>
+	  <file>iconos/nuevo.png</file>
+  </qresource>
+</RCC>

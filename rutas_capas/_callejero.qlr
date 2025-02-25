@@ -1,0 +1,1096 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer name="Calles" providerKey="ogr" id="Calles_8e72e6ab_33d5_454a_baee_5cdc1949dc6c" source="./ejes_de_calle.shp" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="Números de Gobierno" providerKey="ogr" id="Números_de_Gobierno_8081d7fc_247e_4a37_9e9e_3121a6f25b8e" source="./numeros_callejero.shp" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyDrawingTol="1" maxScale="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" minScale="1e+08" wkbType="MultiLineString" geometry="Line" type="vector" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" simplifyLocal="1" labelsEnabled="1" simplifyDrawingHints="1">
+      <extent>
+        <xmin>-6.6006356740886547</xmin>
+        <ymin>39.18494121156916776</ymin>
+        <xmax>-6.08915248432195355</xmax>
+        <ymax>39.59077135318958085</ymax>
+      </extent>
+      <id>Calles_8e72e6ab_33d5_454a_baee_5cdc1949dc6c</id>
+      <datasource>./ejes_de_calle.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Calles</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" dimensions="2" miny="0" maxx="0" minx="0" maxy="0" maxz="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predeterminado">
+        <map-layer-style name="predeterminado"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="nullSymbol"/>
+      <labeling type="simple">
+        <settings calloutType="simple">
+          <text-style fontItalic="0" fontLetterSpacing="0" fontStrikeout="0" fontUnderline="0" textOrientation="horizontal" textOpacity="0.8" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWeight="50" fontSizeUnit="Point" fontWordSpacing="0" fontFamily="Tahoma" previewBkgrdColor="255,255,255,255" isExpression="1" fieldName="tipovia+'  '+NOMBREVIA" multilineHeight="1" useSubstitutions="0" textColor="0,0,0,255" blendMode="0" fontCapitals="0" fontSize="10" fontKerning="1" namedStyle="Normal">
+            <text-buffer bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferNoFill="1" bufferBlendMode="0" bufferOpacity="0.7" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255"/>
+            <background shapeSizeUnit="MM" shapeSizeY="0" shapeOpacity="1" shapeRotation="0" shapeBlendMode="0" shapeOffsetX="0" shapeSVGFile="" shapeOffsetY="0" shapeRadiiUnit="MM" shapeRadiiX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeX="0" shapeRotationType="0" shapeRadiiY="0" shapeDraw="0" shapeType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeBorderColor="128,128,128,255">
+              <symbol clip_to_extent="1" name="markerSymbol" type="marker" alpha="1" force_rhr="0">
+                <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+                  <prop v="0" k="angle"/>
+                  <prop v="125,139,143,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="2" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </background>
+            <shadow shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowColor="0,0,0,255" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadiusUnit="MM" shadowOffsetDist="1" shadowOpacity="0.7" shadowOffsetAngle="135" shadowBlendMode="6" shadowRadius="1.5" shadowOffsetGlobal="1" shadowDraw="0" shadowUnder="0" shadowOffsetUnit="MM"/>
+            <dd_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </dd_properties>
+            <substitutions/>
+          </text-style>
+          <text-format autoWrapLength="0" reverseDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" wrapChar="" leftDirectionSymbol="&lt;" addDirectionSymbol="0" rightDirectionSymbol=">" multilineAlign="0" formatNumbers="0" plussign="0" placeDirectionSymbol="0" decimals="3"/>
+          <placement quadOffset="4" xOffset="0" priority="5" geometryGeneratorType="PointGeometry" placementFlags="9" offsetType="0" layerType="LineGeometry" repeatDistance="0" preserveRotation="1" rotationAngle="0" overrunDistanceUnit="MM" geometryGeneratorEnabled="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" dist="0" offsetUnits="MM" centroidInside="0" placement="3" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25" repeatDistanceUnits="MM" geometryGenerator="" maxCurvedCharAngleOut="-25" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" distUnits="MM" overrunDistance="0" centroidWhole="0" distMapUnitScale="3x:0,0,0,0,0,0" fitInPolygonOnly="0" yOffset="0"/>
+          <rendering maxNumLabels="2000" obstacleType="0" scaleVisibility="1" upsidedownLabels="0" displayAll="0" fontLimitPixelSize="0" mergeLines="0" limitNumLabels="0" scaleMin="0" drawLabels="1" fontMaxPixelSize="10000" labelPerPart="0" obstacle="1" fontMinPixelSize="3" minFeatureSize="0" scaleMax="5000" obstacleFactor="1" zIndex="0"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dd_properties>
+          <callout type="simple">
+            <Option type="Map">
+              <Option name="anchorPoint" value="pole_of_inaccessibility" type="QString"/>
+              <Option name="ddProperties" type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+              <Option name="drawToAllParts" value="false" type="bool"/>
+              <Option name="enabled" value="0" type="QString"/>
+              <Option name="lineSymbol" value="&lt;symbol clip_to_extent=&quot;1&quot; name=&quot;symbol&quot; type=&quot;line&quot; alpha=&quot;1&quot; force_rhr=&quot;0&quot;>&lt;layer class=&quot;SimpleLine&quot; pass=&quot;0&quot; enabled=&quot;1&quot; locked=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" type="QString"/>
+              <Option name="minLength" value="0" type="double"/>
+              <Option name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="minLengthUnit" value="MM" type="QString"/>
+              <Option name="offsetFromAnchor" value="0" type="double"/>
+              <Option name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offsetFromAnchorUnit" value="MM" type="QString"/>
+              <Option name="offsetFromLabel" value="0" type="double"/>
+              <Option name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offsetFromLabelUnit" value="MM" type="QString"/>
+            </Option>
+          </callout>
+        </settings>
+      </labeling>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="NOMBREVIA"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" barWidth="5" height="15" penWidth="0" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" enabled="0" scaleDependency="Area" rotationOffset="270" lineSizeType="MM" width="15" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penColor="#000000" backgroundColor="#ffffff" penAlpha="255" minScaleDenominator="0" maxScaleDenominator="1e+08" opacity="1" sizeType="MM" minimumSize="0" diagramOrientation="Up">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" linePlacementFlags="18" showAll="1" placement="2" priority="0" zIndex="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="NUCLEO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODIGOVIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIPOVIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOMBREVIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FECHA_APRO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HISTORIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOMBRE_ANT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="URL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="URL_TOPON">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="INICIO_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="INICIO_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIN_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIN_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CENTRO_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CENTRO_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="INICIO_LAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="INICIO_LON">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIN_LAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIN_LON">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CENTRO_LAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CENTRO_LON">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MSLINK">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="NUCLEO"/>
+        <alias name="" index="1" field="CODIGOVIA"/>
+        <alias name="" index="2" field="TIPOVIA"/>
+        <alias name="" index="3" field="NOMBREVIA"/>
+        <alias name="" index="4" field="LONGITUD"/>
+        <alias name="" index="5" field="FECHA_APRO"/>
+        <alias name="" index="6" field="HISTORIA"/>
+        <alias name="" index="7" field="NOMBRE_ANT"/>
+        <alias name="" index="8" field="URL"/>
+        <alias name="" index="9" field="URL_TOPON"/>
+        <alias name="" index="10" field="INICIO_X"/>
+        <alias name="" index="11" field="INICIO_Y"/>
+        <alias name="" index="12" field="FIN_X"/>
+        <alias name="" index="13" field="FIN_Y"/>
+        <alias name="" index="14" field="CENTRO_X"/>
+        <alias name="" index="15" field="CENTRO_Y"/>
+        <alias name="" index="16" field="INICIO_LAT"/>
+        <alias name="" index="17" field="INICIO_LON"/>
+        <alias name="" index="18" field="FIN_LAT"/>
+        <alias name="" index="19" field="FIN_LON"/>
+        <alias name="" index="20" field="CENTRO_LAT"/>
+        <alias name="" index="21" field="CENTRO_LON"/>
+        <alias name="" index="22" field="MSLINK"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="NUCLEO"/>
+        <default expression="" applyOnUpdate="0" field="CODIGOVIA"/>
+        <default expression="" applyOnUpdate="0" field="TIPOVIA"/>
+        <default expression="" applyOnUpdate="0" field="NOMBREVIA"/>
+        <default expression="" applyOnUpdate="0" field="LONGITUD"/>
+        <default expression="" applyOnUpdate="0" field="FECHA_APRO"/>
+        <default expression="" applyOnUpdate="0" field="HISTORIA"/>
+        <default expression="" applyOnUpdate="0" field="NOMBRE_ANT"/>
+        <default expression="" applyOnUpdate="0" field="URL"/>
+        <default expression="" applyOnUpdate="0" field="URL_TOPON"/>
+        <default expression="" applyOnUpdate="0" field="INICIO_X"/>
+        <default expression="" applyOnUpdate="0" field="INICIO_Y"/>
+        <default expression="" applyOnUpdate="0" field="FIN_X"/>
+        <default expression="" applyOnUpdate="0" field="FIN_Y"/>
+        <default expression="" applyOnUpdate="0" field="CENTRO_X"/>
+        <default expression="" applyOnUpdate="0" field="CENTRO_Y"/>
+        <default expression="" applyOnUpdate="0" field="INICIO_LAT"/>
+        <default expression="" applyOnUpdate="0" field="INICIO_LON"/>
+        <default expression="" applyOnUpdate="0" field="FIN_LAT"/>
+        <default expression="" applyOnUpdate="0" field="FIN_LON"/>
+        <default expression="" applyOnUpdate="0" field="CENTRO_LAT"/>
+        <default expression="" applyOnUpdate="0" field="CENTRO_LON"/>
+        <default expression="" applyOnUpdate="0" field="MSLINK"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" field="NUCLEO" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CODIGOVIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TIPOVIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="NOMBREVIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="LONGITUD" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="FECHA_APRO" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="HISTORIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="NOMBRE_ANT" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="URL" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="URL_TOPON" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="INICIO_X" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="INICIO_Y" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="FIN_X" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="FIN_Y" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CENTRO_X" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CENTRO_Y" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="INICIO_LAT" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="INICIO_LON" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="FIN_LAT" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="FIN_LON" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CENTRO_LAT" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CENTRO_LON" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="MSLINK" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="NUCLEO" desc=""/>
+        <constraint exp="" field="CODIGOVIA" desc=""/>
+        <constraint exp="" field="TIPOVIA" desc=""/>
+        <constraint exp="" field="NOMBREVIA" desc=""/>
+        <constraint exp="" field="LONGITUD" desc=""/>
+        <constraint exp="" field="FECHA_APRO" desc=""/>
+        <constraint exp="" field="HISTORIA" desc=""/>
+        <constraint exp="" field="NOMBRE_ANT" desc=""/>
+        <constraint exp="" field="URL" desc=""/>
+        <constraint exp="" field="URL_TOPON" desc=""/>
+        <constraint exp="" field="INICIO_X" desc=""/>
+        <constraint exp="" field="INICIO_Y" desc=""/>
+        <constraint exp="" field="FIN_X" desc=""/>
+        <constraint exp="" field="FIN_Y" desc=""/>
+        <constraint exp="" field="CENTRO_X" desc=""/>
+        <constraint exp="" field="CENTRO_Y" desc=""/>
+        <constraint exp="" field="INICIO_LAT" desc=""/>
+        <constraint exp="" field="INICIO_LON" desc=""/>
+        <constraint exp="" field="FIN_LAT" desc=""/>
+        <constraint exp="" field="FIN_LON" desc=""/>
+        <constraint exp="" field="CENTRO_LAT" desc=""/>
+        <constraint exp="" field="CENTRO_LON" desc=""/>
+        <constraint exp="" field="MSLINK" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <actionsetting name="Abrir Ficha calle" notificationMessage="" isEnabledOnlyWhenEditable="0" icon="" id="{5955b703-e0e0-42ef-9edd-861a4a9eb967}" type="5" shortTitle="Abrir Ficha calle" capture="0" action="[%URL%]">
+          <actionScope id="Canvas"/>
+          <actionScope id="Feature"/>
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="1" sortExpression="&quot;MSLINK&quot;">
+        <columns>
+          <column hidden="1" width="-1" type="actions"/>
+          <column name="NUCLEO" hidden="0" width="-1" type="field"/>
+          <column name="CODIGOVIA" hidden="0" width="-1" type="field"/>
+          <column name="TIPOVIA" hidden="0" width="-1" type="field"/>
+          <column name="NOMBREVIA" hidden="0" width="243" type="field"/>
+          <column name="LONGITUD" hidden="0" width="-1" type="field"/>
+          <column name="FECHA_APRO" hidden="0" width="-1" type="field"/>
+          <column name="HISTORIA" hidden="0" width="-1" type="field"/>
+          <column name="NOMBRE_ANT" hidden="0" width="-1" type="field"/>
+          <column name="URL" hidden="0" width="-1" type="field"/>
+          <column name="URL_TOPON" hidden="0" width="-1" type="field"/>
+          <column name="INICIO_X" hidden="0" width="-1" type="field"/>
+          <column name="INICIO_Y" hidden="0" width="-1" type="field"/>
+          <column name="FIN_X" hidden="0" width="-1" type="field"/>
+          <column name="FIN_Y" hidden="0" width="-1" type="field"/>
+          <column name="CENTRO_X" hidden="0" width="-1" type="field"/>
+          <column name="CENTRO_Y" hidden="0" width="-1" type="field"/>
+          <column name="INICIO_LAT" hidden="0" width="-1" type="field"/>
+          <column name="INICIO_LON" hidden="0" width="-1" type="field"/>
+          <column name="FIN_LAT" hidden="0" width="-1" type="field"/>
+          <column name="FIN_LON" hidden="0" width="-1" type="field"/>
+          <column name="CENTRO_LAT" hidden="0" width="-1" type="field"/>
+          <column name="CENTRO_LON" hidden="0" width="-1" type="field"/>
+          <column name="MSLINK" hidden="0" width="-1" type="field"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- codificación: utf-8 -*-
+"""
+Los formularios de QGIS pueden tener una función de Python que
+es llamada cuando se abre el formulario.
+
+Use esta función para añadir lógica extra a sus formularios.
+
+Introduzca el nombre de la función en el campo
+"Python Init function".
+Sigue un ejemplo:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="CENTRO_LAT" editable="1"/>
+        <field name="CENTRO_LON" editable="1"/>
+        <field name="CENTRO_X" editable="1"/>
+        <field name="CENTRO_Y" editable="1"/>
+        <field name="CODIGOVIA" editable="1"/>
+        <field name="FECHA_APRO" editable="1"/>
+        <field name="FIN_LAT" editable="1"/>
+        <field name="FIN_LON" editable="1"/>
+        <field name="FIN_X" editable="1"/>
+        <field name="FIN_Y" editable="1"/>
+        <field name="HISTORIA" editable="1"/>
+        <field name="INICIO_LAT" editable="1"/>
+        <field name="INICIO_LON" editable="1"/>
+        <field name="INICIO_X" editable="1"/>
+        <field name="INICIO_Y" editable="1"/>
+        <field name="LONGITUD" editable="1"/>
+        <field name="MSLINK" editable="1"/>
+        <field name="NOMBREVIA" editable="1"/>
+        <field name="NOMBRE_ANT" editable="1"/>
+        <field name="NUCLEO" editable="1"/>
+        <field name="TIPOVIA" editable="1"/>
+        <field name="URL" editable="1"/>
+        <field name="URL_TOPON" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="CENTRO_LAT" labelOnTop="0"/>
+        <field name="CENTRO_LON" labelOnTop="0"/>
+        <field name="CENTRO_X" labelOnTop="0"/>
+        <field name="CENTRO_Y" labelOnTop="0"/>
+        <field name="CODIGOVIA" labelOnTop="0"/>
+        <field name="FECHA_APRO" labelOnTop="0"/>
+        <field name="FIN_LAT" labelOnTop="0"/>
+        <field name="FIN_LON" labelOnTop="0"/>
+        <field name="FIN_X" labelOnTop="0"/>
+        <field name="FIN_Y" labelOnTop="0"/>
+        <field name="HISTORIA" labelOnTop="0"/>
+        <field name="INICIO_LAT" labelOnTop="0"/>
+        <field name="INICIO_LON" labelOnTop="0"/>
+        <field name="INICIO_X" labelOnTop="0"/>
+        <field name="INICIO_Y" labelOnTop="0"/>
+        <field name="LONGITUD" labelOnTop="0"/>
+        <field name="MSLINK" labelOnTop="0"/>
+        <field name="NOMBREVIA" labelOnTop="0"/>
+        <field name="NOMBRE_ANT" labelOnTop="0"/>
+        <field name="NUCLEO" labelOnTop="0"/>
+        <field name="TIPOVIA" labelOnTop="0"/>
+        <field name="URL" labelOnTop="0"/>
+        <field name="URL_TOPON" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>NOMBREVIA</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingTol="1" maxScale="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" minScale="1e+08" wkbType="Point" geometry="Point" type="vector" autoRefreshEnabled="0" autoRefreshTime="0" styleCategories="AllStyleCategories" simplifyLocal="1" labelsEnabled="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>-6.78249141389343269</xmin>
+        <ymin>39.19474976496242391</ymin>
+        <xmax>-6.09829271754972346</xmax>
+        <ymax>39.54714840175086721</ymax>
+      </extent>
+      <id>Números_de_Gobierno_8081d7fc_247e_4a37_9e9e_3121a6f25b8e</id>
+      <datasource>./numeros_callejero.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Números de Gobierno</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" dimensions="2" miny="0" maxx="0" minx="0" maxy="0" maxz="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predeterminado">
+        <map-layer-style name="predeterminado"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="nullSymbol"/>
+      <labeling type="simple">
+        <settings calloutType="simple">
+          <text-style fontItalic="0" fontLetterSpacing="0" fontStrikeout="0" fontUnderline="0" textOrientation="horizontal" textOpacity="0.8" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWeight="50" fontSizeUnit="Point" fontWordSpacing="0" fontFamily="Tahoma" previewBkgrdColor="255,255,255,255" isExpression="0" fieldName="NUMPOL" multilineHeight="1" useSubstitutions="0" textColor="0,0,244,255" blendMode="0" fontCapitals="0" fontSize="7" fontKerning="1" namedStyle="Normal">
+            <text-buffer bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferNoFill="1" bufferBlendMode="0" bufferOpacity="0.7" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255"/>
+            <background shapeSizeUnit="MM" shapeSizeY="0" shapeOpacity="1" shapeRotation="0" shapeBlendMode="0" shapeOffsetX="0" shapeSVGFile="" shapeOffsetY="0" shapeRadiiUnit="MM" shapeRadiiX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeSizeX="0" shapeRotationType="0" shapeRadiiY="0" shapeDraw="0" shapeType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeBorderColor="128,128,128,255">
+              <symbol clip_to_extent="1" name="markerSymbol" type="marker" alpha="1" force_rhr="0">
+                <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+                  <prop v="0" k="angle"/>
+                  <prop v="255,158,23,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="2" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </background>
+            <shadow shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowColor="0,0,0,255" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadiusUnit="MM" shadowOffsetDist="1" shadowOpacity="0.7" shadowOffsetAngle="135" shadowBlendMode="6" shadowRadius="1.5" shadowOffsetGlobal="1" shadowDraw="0" shadowUnder="0" shadowOffsetUnit="MM"/>
+            <dd_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </dd_properties>
+            <substitutions/>
+          </text-style>
+          <text-format autoWrapLength="0" reverseDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" wrapChar="" leftDirectionSymbol="&lt;" addDirectionSymbol="0" rightDirectionSymbol=">" multilineAlign="3" formatNumbers="0" plussign="0" placeDirectionSymbol="0" decimals="3"/>
+          <placement quadOffset="4" xOffset="0" priority="5" geometryGeneratorType="PointGeometry" placementFlags="10" offsetType="0" layerType="PointGeometry" repeatDistance="0" preserveRotation="1" rotationAngle="0" overrunDistanceUnit="MM" geometryGeneratorEnabled="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" dist="0" offsetUnits="MM" centroidInside="0" placement="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25" repeatDistanceUnits="MM" geometryGenerator="" maxCurvedCharAngleOut="-25" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" distUnits="MM" overrunDistance="0" centroidWhole="0" distMapUnitScale="3x:0,0,0,0,0,0" fitInPolygonOnly="0" yOffset="0"/>
+          <rendering maxNumLabels="2000" obstacleType="0" scaleVisibility="1" upsidedownLabels="0" displayAll="0" fontLimitPixelSize="0" mergeLines="0" limitNumLabels="0" scaleMin="1" drawLabels="1" fontMaxPixelSize="10000" labelPerPart="0" obstacle="1" fontMinPixelSize="3" minFeatureSize="0" scaleMax="1250" obstacleFactor="1" zIndex="0"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dd_properties>
+          <callout type="simple">
+            <Option type="Map">
+              <Option name="anchorPoint" value="pole_of_inaccessibility" type="QString"/>
+              <Option name="ddProperties" type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+              <Option name="drawToAllParts" value="false" type="bool"/>
+              <Option name="enabled" value="0" type="QString"/>
+              <Option name="lineSymbol" value="&lt;symbol clip_to_extent=&quot;1&quot; name=&quot;symbol&quot; type=&quot;line&quot; alpha=&quot;1&quot; force_rhr=&quot;0&quot;>&lt;layer class=&quot;SimpleLine&quot; pass=&quot;0&quot; enabled=&quot;1&quot; locked=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" type="QString"/>
+              <Option name="minLength" value="0" type="double"/>
+              <Option name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="minLengthUnit" value="MM" type="QString"/>
+              <Option name="offsetFromAnchor" value="0" type="double"/>
+              <Option name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offsetFromAnchorUnit" value="MM" type="QString"/>
+              <Option name="offsetFromLabel" value="0" type="double"/>
+              <Option name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offsetFromLabelUnit" value="MM" type="QString"/>
+            </Option>
+          </callout>
+        </settings>
+      </labeling>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="NOMBREVIA"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" barWidth="5" height="15" penWidth="0" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" enabled="0" scaleDependency="Area" rotationOffset="270" lineSizeType="MM" width="15" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penColor="#000000" backgroundColor="#ffffff" penAlpha="255" minScaleDenominator="0" maxScaleDenominator="1e+08" opacity="1" sizeType="MM" minimumSize="0" diagramOrientation="Up">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" linePlacementFlags="18" showAll="1" placement="0" priority="0" zIndex="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="NUCLEO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODIGOVIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIPOVIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOMBREVIA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMERO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DUPLICADO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMPOL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOCAL_COME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODPOS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BARRIO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BARRIADA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CENSO_DIST">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CENSO_SECC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="URL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COORD_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COORD_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WGS84_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WGS84_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="NUCLEO"/>
+        <alias name="" index="1" field="CODIGOVIA"/>
+        <alias name="" index="2" field="TIPOVIA"/>
+        <alias name="" index="3" field="NOMBREVIA"/>
+        <alias name="" index="4" field="NUMERO"/>
+        <alias name="" index="5" field="DUPLICADO"/>
+        <alias name="" index="6" field="NUMPOL"/>
+        <alias name="" index="7" field="LOCAL_COME"/>
+        <alias name="" index="8" field="CODPOS"/>
+        <alias name="" index="9" field="BARRIO"/>
+        <alias name="" index="10" field="BARRIADA"/>
+        <alias name="" index="11" field="CENSO_DIST"/>
+        <alias name="" index="12" field="CENSO_SECC"/>
+        <alias name="" index="13" field="URL"/>
+        <alias name="" index="14" field="COORD_X"/>
+        <alias name="" index="15" field="COORD_Y"/>
+        <alias name="" index="16" field="WGS84_X"/>
+        <alias name="" index="17" field="WGS84_Y"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="NUCLEO"/>
+        <default expression="" applyOnUpdate="0" field="CODIGOVIA"/>
+        <default expression="" applyOnUpdate="0" field="TIPOVIA"/>
+        <default expression="" applyOnUpdate="0" field="NOMBREVIA"/>
+        <default expression="" applyOnUpdate="0" field="NUMERO"/>
+        <default expression="" applyOnUpdate="0" field="DUPLICADO"/>
+        <default expression="" applyOnUpdate="0" field="NUMPOL"/>
+        <default expression="" applyOnUpdate="0" field="LOCAL_COME"/>
+        <default expression="" applyOnUpdate="0" field="CODPOS"/>
+        <default expression="" applyOnUpdate="0" field="BARRIO"/>
+        <default expression="" applyOnUpdate="0" field="BARRIADA"/>
+        <default expression="" applyOnUpdate="0" field="CENSO_DIST"/>
+        <default expression="" applyOnUpdate="0" field="CENSO_SECC"/>
+        <default expression="" applyOnUpdate="0" field="URL"/>
+        <default expression="" applyOnUpdate="0" field="COORD_X"/>
+        <default expression="" applyOnUpdate="0" field="COORD_Y"/>
+        <default expression="" applyOnUpdate="0" field="WGS84_X"/>
+        <default expression="" applyOnUpdate="0" field="WGS84_Y"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" field="NUCLEO" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CODIGOVIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TIPOVIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="NOMBREVIA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="NUMERO" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="DUPLICADO" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="NUMPOL" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="LOCAL_COME" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CODPOS" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="BARRIO" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="BARRIADA" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CENSO_DIST" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CENSO_SECC" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="URL" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="COORD_X" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="COORD_Y" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="WGS84_X" constraints="0" unique_strength="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="WGS84_Y" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="NUCLEO" desc=""/>
+        <constraint exp="" field="CODIGOVIA" desc=""/>
+        <constraint exp="" field="TIPOVIA" desc=""/>
+        <constraint exp="" field="NOMBREVIA" desc=""/>
+        <constraint exp="" field="NUMERO" desc=""/>
+        <constraint exp="" field="DUPLICADO" desc=""/>
+        <constraint exp="" field="NUMPOL" desc=""/>
+        <constraint exp="" field="LOCAL_COME" desc=""/>
+        <constraint exp="" field="CODPOS" desc=""/>
+        <constraint exp="" field="BARRIO" desc=""/>
+        <constraint exp="" field="BARRIADA" desc=""/>
+        <constraint exp="" field="CENSO_DIST" desc=""/>
+        <constraint exp="" field="CENSO_SECC" desc=""/>
+        <constraint exp="" field="URL" desc=""/>
+        <constraint exp="" field="COORD_X" desc=""/>
+        <constraint exp="" field="COORD_Y" desc=""/>
+        <constraint exp="" field="WGS84_X" desc=""/>
+        <constraint exp="" field="WGS84_Y" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <actionsetting name="Abrir Ficha Num Gobierno" notificationMessage="" isEnabledOnlyWhenEditable="0" icon="" id="{09f256b6-f8da-46f8-8a86-4e0bf4e63e25}" type="5" shortTitle="Abrir Ficha Num Gobierno" capture="0" action="[%URL%]">
+          <actionScope id="Canvas"/>
+          <actionScope id="Feature"/>
+        </actionsetting>
+        <actionsetting name="Abrir Street View" notificationMessage="" isEnabledOnlyWhenEditable="0" icon="" id="{d1bec30f-2d5d-48b9-bd32-57d14330077d}" type="1" shortTitle="Abrir Street View" capture="0" action="import urllib&#xd;&#xa;import webbrowser&#xd;&#xa;url = &quot;https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=&quot;+&quot;[%WGS84_Y%]&quot;+&quot;,&quot;+&quot;[%WGS84_X%]&quot;+&quot;&amp;heading=45&amp;pitch=1&amp;fov=80&quot;&#xd;&#xa;# El pitch controla el cabeceo de la cámara. Sl número que se pone se suma a 90, que es el ángulo 0&#xd;&#xa;url2 = &quot;[%URL%]&quot;&#xd;&#xa;try: &#xd;&#xa;    urllib.request.urlopen(url)&#xd;&#xa;    urllib.request.urlopen(url2)&#xd;&#xa;    &#xd;&#xa;    webbrowser.open(url, new=0, autoraise=True)&#xd;&#xa;    webbrowser.open(url2, new=0, autoraise=True)&#xd;&#xa;&#xd;&#xa;except: &#xd;&#xa;    QtGui.QMessageBox.warning(None, &quot;Wrong value&quot;, &quot;Error&quot;)">
+          <actionScope id="Canvas"/>
+          <actionScope id="Feature"/>
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="1" sortExpression="&quot;NOMBREVIA&quot;">
+        <columns>
+          <column hidden="1" width="-1" type="actions"/>
+          <column name="NUCLEO" hidden="0" width="-1" type="field"/>
+          <column name="CODIGOVIA" hidden="0" width="-1" type="field"/>
+          <column name="TIPOVIA" hidden="0" width="-1" type="field"/>
+          <column name="NOMBREVIA" hidden="0" width="451" type="field"/>
+          <column name="NUMERO" hidden="0" width="-1" type="field"/>
+          <column name="DUPLICADO" hidden="0" width="-1" type="field"/>
+          <column name="NUMPOL" hidden="0" width="-1" type="field"/>
+          <column name="LOCAL_COME" hidden="0" width="-1" type="field"/>
+          <column name="CODPOS" hidden="0" width="-1" type="field"/>
+          <column name="BARRIO" hidden="0" width="-1" type="field"/>
+          <column name="BARRIADA" hidden="0" width="-1" type="field"/>
+          <column name="CENSO_DIST" hidden="0" width="-1" type="field"/>
+          <column name="CENSO_SECC" hidden="0" width="-1" type="field"/>
+          <column name="URL" hidden="0" width="-1" type="field"/>
+          <column name="COORD_X" hidden="0" width="-1" type="field"/>
+          <column name="COORD_Y" hidden="0" width="-1" type="field"/>
+          <column name="WGS84_X" hidden="0" width="-1" type="field"/>
+          <column name="WGS84_Y" hidden="0" width="-1" type="field"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- codificación: utf-8 -*-
+"""
+Los formularios de QGIS pueden tener una función de Python que
+es llamada cuando se abre el formulario.
+
+Use esta función para añadir lógica extra a sus formularios.
+
+Introduzca el nombre de la función en el campo
+"Python Init function".
+Sigue un ejemplo:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="BARRIADA" editable="1"/>
+        <field name="BARRIO" editable="1"/>
+        <field name="CENSO_DIST" editable="1"/>
+        <field name="CENSO_SECC" editable="1"/>
+        <field name="CODIGOVIA" editable="1"/>
+        <field name="CODPOS" editable="1"/>
+        <field name="COORD_X" editable="1"/>
+        <field name="COORD_Y" editable="1"/>
+        <field name="DUPLICADO" editable="1"/>
+        <field name="LOCAL_COME" editable="1"/>
+        <field name="NOMBREVIA" editable="1"/>
+        <field name="NUCLEO" editable="1"/>
+        <field name="NUMERO" editable="1"/>
+        <field name="NUMPOL" editable="1"/>
+        <field name="TIPOVIA" editable="1"/>
+        <field name="URL" editable="1"/>
+        <field name="WGS84_X" editable="1"/>
+        <field name="WGS84_Y" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="BARRIADA" labelOnTop="0"/>
+        <field name="BARRIO" labelOnTop="0"/>
+        <field name="CENSO_DIST" labelOnTop="0"/>
+        <field name="CENSO_SECC" labelOnTop="0"/>
+        <field name="CODIGOVIA" labelOnTop="0"/>
+        <field name="CODPOS" labelOnTop="0"/>
+        <field name="COORD_X" labelOnTop="0"/>
+        <field name="COORD_Y" labelOnTop="0"/>
+        <field name="DUPLICADO" labelOnTop="0"/>
+        <field name="LOCAL_COME" labelOnTop="0"/>
+        <field name="NOMBREVIA" labelOnTop="0"/>
+        <field name="NUCLEO" labelOnTop="0"/>
+        <field name="NUMERO" labelOnTop="0"/>
+        <field name="NUMPOL" labelOnTop="0"/>
+        <field name="TIPOVIA" labelOnTop="0"/>
+        <field name="URL" labelOnTop="0"/>
+        <field name="WGS84_X" labelOnTop="0"/>
+        <field name="WGS84_Y" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>NOMBREVIA</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

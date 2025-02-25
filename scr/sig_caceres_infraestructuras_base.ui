@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SigCaceresDialogBase</class>
+ <widget class="QDialog" name="SigCaceresDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sig Caceres</string>
+  </property>
+  <widget class="QPushButton" name="b_luminarias">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Luminarias</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_contenedores">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Contenedores Basura</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Infraestructuras Municipales</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_senalizacion_v">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>100</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Señalización Vertical</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_abastecimiento">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Abastecimiento</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_saneamiento">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Saneamiento</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_carriles_bici">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Carriles Bici</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_saneamiento">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>400</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QCheckBox" name="check_acometida">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>73</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Acometida</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_estacion">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>104</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Estación bombeo</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_pozo">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>46</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pozo</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_colector">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>63</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Colector</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_imbornal">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>65</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Imbornal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_puntovertido">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>88</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Punto Vertido</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_nudo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>48</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nudo</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_edar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>45</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edar</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_aliviadero">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>70</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aliviadero</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Capas de Saneamiento</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_anadir_saneamiento">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>220</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Añadir capas</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_abastecimiento_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>400</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QCheckBox" name="check_acometidadistrib">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Acometida Distribución</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_bocariego">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>104</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Boca Riego</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_llave">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>46</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Llave Paso</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_nudoacometida">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nudo Acometida</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_nudodistribuc">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nudo Distribución</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_puntoacometida">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Punto Acometida</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_fuente">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>61</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fuente</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_desague">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Desagüe</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_hidrante">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>70</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hidrante</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Capas de Abastecimiento</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_anadir_abastecimiento">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>220</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Añadir capas</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_tubo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>61</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tubo</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_valvulacorte">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Valvula de Corte</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_valvulareguladora">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>140</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Valvula Reguladora </string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="check_ventosa">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ventosa</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>511</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border:0.5px solid rgb(229, 229, 229);
+border-bottom-color: rgb(188, 188, 188)
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_icon">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../resources.qrc">:/plugins/sig_caceres/iconos/logo-sig.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_icon_ayti">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../resources.qrc">:/plugins/sig_caceres/iconos/logo-ayto.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>b_luminarias</zorder>
+  <zorder>b_contenedores</zorder>
+  <zorder>b_senalizacion_v</zorder>
+  <zorder>b_abastecimiento</zorder>
+  <zorder>b_saneamiento</zorder>
+  <zorder>b_carriles_bici</zorder>
+  <zorder>frame_saneamiento</zorder>
+  <zorder>frame_abastecimiento_2</zorder>
+  <zorder>label</zorder>
+  <zorder>label_icon</zorder>
+  <zorder>label_icon_ayti</zorder>
+ </widget>
+ 
+ <connections/>
+</ui>

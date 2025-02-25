@@ -1,0 +1,2 @@
+
+Cuando se introduce un icono en la interfaz (archivo .ui), genera una etiqueta <resources> que impide abrir la herramienta en QGIS, por lo que hay que editar el archivo de texto y borrarlo.

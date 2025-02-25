@@ -1,0 +1,132 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer name="Cáceres 1931 (escala 1/1000)" legend_split_behavior="0" patch_size="0,0" id="Cáceres_1931__escala_1_1000__78cd98a0_e43b_4855_9bc3_50fa9448221a" expanded="1" checked="Qt::Checked" providerKey="gdal" legend_exp="" source="WMS:https://ide.caceres.es/geoserver/sigaytocc/caceres_1931/ows?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;LAYERS=caceres_1931&amp;CRS=CRS:84&amp;BBOX=-6.386832209166007,39.460739095475176,-6.3638563095704574,39.485358189842636">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer type="raster" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-6.38683220916600725</xmin>
+        <ymin>39.46073909547517644</ymin>
+        <xmax>-6.36385630957045745</xmax>
+        <ymax>39.48535818984263557</ymax>
+      </extent>
+      <id>Cáceres_1931__escala_1_1000__78cd98a0_e43b_4855_9bc3_50fa9448221a</id>
+      <datasource>WMS:https://ide.caceres.es/geoserver/sigaytocc/caceres_1931/ows?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;LAYERS=caceres_1931&amp;CRS=CRS:84&amp;BBOX=-6.386832209166007,39.460739095475176,-6.3638563095704574,39.485358189842636</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Cáceres 1931 (escala 1/1000)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84 (CRS84)",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic longitude (Lon)",east,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic latitude (Lat)",north,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["OGC","CRS84"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>63159</srsid>
+          <srid>520003159</srid>
+          <authid>OGC:CRS84</authid>
+          <description>WGS 84 (CRS84)</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxy="0" minx="0" crs="" maxz="0" maxx="0" miny="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="predeterminado">
+        <map-layer-style name="predeterminado"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal fetchMode="0" enabled="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
+        </provider>
+        <rasterrenderer type="multibandcolor" nodataColor="" greenBand="2" opacity="1" alphaBand="-1" blueBand="3" redBand="1">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry blue="255" green="255" red="254" percentTransparent="100"/>
+              <pixelListEntry blue="255" green="255" red="254" percentTransparent="100"/>
+            </threeValuePixelList>
+          </rasterTransparency>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" gamma="1" brightness="0"/>
+        <huesaturation colorizeBlue="128" grayscaleMode="0" colorizeOn="0" colorizeGreen="128" saturation="0" colorizeStrength="100" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
