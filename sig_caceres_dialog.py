@@ -4,11 +4,12 @@ Modulo de ppal dialogo
 
 """
 __author__ = "SIG Caceres"
-__copyright__ = "Copyright 2021, SIG Caceres"
+__copyright__ = "Copyright 2026, SIG Caceres"
 __credits__ = ["SIG Caceres"]
 
-__version__ = "1.1.0"
+__version__ = "1.3.0"
 __maintainer__ = "SIG Cáceres"
+__email__ = "https://sig.caceres.es/"
 __status__ = "Production"
 
 import os

@@ -6,7 +6,7 @@
 name=Sig Caceres WMS
 qgisMinimumVersion=3.0
 description=SIG Cáceres WMS
-version=0.1
+version=0.2
 author=SIG de Cáceres
 email=sig.caceres@ayto-caceres.es
 

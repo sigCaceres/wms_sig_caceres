@@ -3,10 +3,10 @@
 Modulo de rutas a las capas de la aplicacion
 """
 __author__ = "SIG Caceres"
-__copyright__ = "Copyright 2024, SIG Caceres"
+__copyright__ = "Copyright 2026, SIG Caceres"
 __credits__ = ["SIG Caceres"]
 
-__version__ = "1.1.0"
+__version__ = "1.3.0"
 __maintainer__ = "SIG Cáceres"
 __email__ = "https://sig.caceres.es/"
 __status__ = "Production"
@@ -42,9 +42,7 @@ NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1975 = "Cartografía Escaneada 1975"
 NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1981 = "Cartografía Escaneada 1981"
 NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1984 = "Cartografía Escaneada 1984"
 NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E2000 = "Cartografía Escaneada 1993 1/2000"
-NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E2000T = "Cartografía Escaneada 1993 1/2000 transparente"
 NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E5000 = "Cartografía Escaneada 1993 1/5000"
-NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E5000T = "Cartografía Escaneada 1993 1/5000 transparente"
 NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_PLANIMETRIA_HISTORICA = "Planimetría Histórica"
 # GRUPOS -> CARTOGRAFIA Y ORTOFOTOS -> PLANOS ESCANEADOS
 NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_PLANO_BAIER_1813 = "Plano Baier 1813"
@@ -188,11 +186,77 @@ NOMBRE_GRUPO_FERIAL = "Ferial"
 NOMBRE_GRUPO_ARBOLADO = "Arbolado"
 NOMBRE_GRUPO_PARQUES_JARDINES = "Parques y jardines"
 
+# GRUPOS -> DATOS DE POBLACIÓN -> POR BARRIOS
+NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2026 = "Barrios Padrón a Enero 2026"
+NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2025 = "Barrios Padrón a Enero 2025"
+NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2024 = "Barrios Padrón a Enero 2024"
+NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2023 = "Barrios Padrón a Enero 2023"
+NOMBRE_GRUPO_BARRIOS_PADRON_AGO_2022 = "Barrios Padrón a Agosto 2022"
+
+# GRUPOS -> DATOS DE POBLACIÓN -> POR CALLES
+NOMBRE_GRUPO_CALLES_PADRON_ENE_2026 = "Calles Padrón a Enero 2026"
+NOMBRE_GRUPO_CALLES_PADRON_ENE_2025 = "Calles Padrón a Enero 2025"
+NOMBRE_GRUPO_CALLES_PADRON_ENE_2024 = "Calles Padrón a Enero 2024"
+NOMBRE_GRUPO_CALLES_PADRON_ENE_2023 = "Calles Padrón a Enero 2023"
+NOMBRE_GRUPO_CALLES_PADRON_AGO_2022 = "Calles Padrón a Agosto 2022"
+
+# GRUPOS -> DATOS DE POBLACIÓN -> POR SECCIONES CENSALES
+NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2026 = "Secciones Padrón a Enero 2026"
+NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2025 = "Secciones Padrón a Enero 2025"
+NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2024 = "Secciones Padrón a Enero 2024"
+NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2023 = "Secciones Padrón a Enero 2023"
+
+# GRUPOS -> DATOS DE POBLACIÓN -> POR MANZANAS
+NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2026 = "Manzanas Padrón a Enero 2026"
+NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2025 = "Manzanas Padrón a Enero 2025"
+NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2024 = "Manzanas Padrón a Enero 2024"
+NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2023 = "Manzanas Padrón a Enero 2023"
+
+
+# GRUPOS -> DATOS DEL CENSO -> SECCIONES CENSALES
+NOMBRE_GRUPO_SECCIONES_2025 = "2025"
+NOMBRE_GRUPO_SECCIONES_2024 = "2024"
+#NOMBRE_GRUPO_SECCIONES_MAY_2023 = "2023"#generar los wsm#generar los wsm
+NOMBRE_GRUPO_SECCIONES_JUL_2023 = "2023"
+NOMBRE_GRUPO_SECCIONES_2019 = "2019"
+
+# GRUPOS -> DATOS DEL CENSO -> COLEGIOS ELECTORALES
+NOMBRE_GRUPO_COLEGIOS_2025 = "2025"
+NOMBRE_GRUPO_COLEGIOS_2024 = "2024"
+#NOMBRE_GRUPO_COLEGIOS_MAY_2023 = "2023"#generar los wsm
+NOMBRE_GRUPO_COLEGIOS_JUL_2023 = "2023"
+NOMBRE_GRUPO_COLEGIOS_2019 = "2019"
+
+# GRUPOS -> RESULTADOS ELECTORALES -> MUNICIPALES
+NOMBRE_GRUPO_MUNICIPALES_MAYO_2023 = "Municipales mayo 2023"
+NOMBRE_GRUPO_MUNICIPALES_MAYO_2019 = "Municipales mayo 2019"
+NOMBRE_GRUPO_MUNICIPALES_MAYO_2015 = "Municipales mayo 2015"
+NOMBRE_GRUPO_MUNICIPALES_MAYO_2007 = "Municipales mayo 2007"
+
+# GRUPOS -> RESULTADOS ELECTORALES -> AUTONOMICAS
+NOMBRE_GRUPO_AUTONOMICAS_DICIEMBRE_2025 = "Autonómicas diciembre 2025"
+NOMBRE_GRUPO_AUTONOMICAS_MAYO_2023 = "Autonómicas mayo 2023"
+NOMBRE_GRUPO_AUTONOMICAS_MAYO_2019 = "Autonómicas mayo 2019"
+NOMBRE_GRUPO_AUTONOMICAS_MAYO_2007 = "Autonómicas mayo 2007"
+
+# GRUPOS -> RESULTADOS ELECTORALES -> GENERALES
+NOMBRE_GRUPO_GENERALES_JULIO_2023 = "Generales julio 2023"
+NOMBRE_GRUPO_GENERALES_NOVIEMBRE_2019 = "Generales noviembre 2019"
+NOMBRE_GRUPO_GENERALES_ABRIL_2019 = "Generales abril 2019"
+NOMBRE_GRUPO_GENERALES_JUNIO_2016 = "Generales junio 2016"
+
+# GRUPOS -> RESULTADOS ELECTORALES -> EUROPEAS
+NOMBRE_GRUPO_EUROPEAS_JUNIO_2024 = "Europeas junio 2024"
+NOMBRE_GRUPO_EUROPEAS_MAYO_2019 = "Europeas mayo 2019"
+
 # GRUPOS -> TEMATICOS
-NOMBRE_GRUPO_FOTOVOLTAICAS = "FOTOVOLTAICAS"
+
+#NOMBRE_GRUPO_AMIANTO = "Inventario de Amianto"#hacer qrl ya que estos estan en vectoriales
+#NOMBRE_GRUPO_PANELES_SOLARES = "Inventario de Paneles Solares"#hacer qrl ya que estos estan en vectoriales
 NOMBRE_GRUPO_GEOLOGICO_MINERO = "Mapa Geológico Minero"
 NOMBRE_GRUPO_MAPA_PENDIENTES = "Mapa de Pendientes"
 NOMBRE_GRUPO_RELIEVE = "Relieve"
+NOMBRE_GRUPO_LIDAR = "LIDAR"
 
 # Se define aqui el path de carga al archivo fuente de los estilos, con esto carga todas las capas.
 # ESTE ES UN CASO PARTICULAR DE CARGAR TODAS LAS IMAGENES QUE SE ENCUENTRAN EN UN DIRECTORIO A PARTIR DE SU ARCHIVO <<QLR>>
@@ -223,9 +287,7 @@ PATH_CARTOGRAFIA_ESCANEADA_1975 = os.path.join(ruta, "qlr", "_Caceres_1975.qlr")
 PATH_CARTOGRAFIA_ESCANEADA_1981 = os.path.join(ruta, "qlr", "_Caceres_1981.qlr")
 PATH_CARTOGRAFIA_ESCANEADA_1984 = os.path.join(ruta, "qlr", "_Caceres_1984.qlr")
 PATH_CARTOGRAFIA_ESCANEADA_1993_E2000 = os.path.join(ruta, "qlr", "_Caceres_1993_e2000.qlr")
-PATH_CARTOGRAFIA_ESCANEADA_1993_E2000T = os.path.join(ruta, "qlr", "_Caceres_1993_e2000_transparencia.qlr")
 PATH_CARTOGRAFIA_ESCANEADA_1993_E5000 = os.path.join(ruta, "qlr", "_Caceres_1993_e5000.qlr")
-PATH_CARTOGRAFIA_ESCANEADA_1993_E5000T = os.path.join(ruta, "qlr", "_Caceres_1993_e5000_transparencia.qlr")
 PATH_CARTOGRAFIA_ESCANEADA_PLANIMETRIA_HISTORICA = os.path.join(ruta, "qlr", "_planimetria_historica.qlr")
 # RUTA -> CARTOGRAFIA Y ORTOFOTOS -> PLANOS ESCANEADOS
 PATH_CARTOGRAFIA_ESCANEADA_PLANO_BAIER_1813 = os.path.join(ruta, "qlr", "_plano_baier_1813.qlr")
@@ -360,10 +422,77 @@ PATH_FERIAL = os.path.join(ruta, "qlr", "_ferial.qlr")
 PATH_ARBOLADO = os.path.join(ruta, "qlr", "_arbolado.qlr")
 PATH_PARQUES_JARDINES = os.path.join(ruta, "qlr", "_parques_jardines.qlr")
 
+# RUTA -> DATOS DE POBLACIÓN -> POR BARRIOS
+PATH_BARRIOS_PADRON_ENE_2026 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_BARRIOS_PADRON_ENE_2025 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsmy poner los qlr
+PATH_BARRIOS_PADRON_ENE_2024 = os.path.join(ruta, "qlr", "_barrios_con_padron_ene2024.qrl")
+PATH_BARRIOS_PADRON_ENE_2023 = os.path.join(ruta, "qlr", "_poblacion_barrios_2023.qlr")
+PATH_BARRIOS_PADRON_AGO_2022 = os.path.join(ruta, "qlr", "_poblacion_barrios_ago_2022.qlr")
+
+# RUTA -> DATOS DE POBLACIÓN -> POR CALLES
+PATH_CALLES_PADRON_ENE_2026 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_CALLES_PADRON_ENE_2025 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_CALLES_PADRON_ENE_2024 = os.path.join(ruta, "qlr", "_poblacion_calles_ene2024.qlr")
+PATH_CALLES_PADRON_ENE_2023 = os.path.join(ruta, "qlr", "_poblacion_calles_2023.qlr")
+PATH_CALLES_PADRON_AGO_2022 = os.path.join(ruta, "qlr", "_poblacion_calles_2022")
+
+# RUTA -> DATOS DE POBLACIÓN -> POR SECCIONES CENSALES
+PATH_SECCIONES_PADRON_ENE_2026 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_SECCIONES_PADRON_ENE_2025 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_SECCIONES_PADRON_ENE_2024 = os.path.join(ruta, "qlr", "_poblacion_secciones_ene2024.qlr")
+PATH_SECCIONES_PADRON_ENE_2023 = os.path.join(ruta, "qlr", "_poblacion_secciones_2023.qlr")
+
+# RUTA -> DATOS DE POBLACIÓN -> POR MANZANAS
+PATH_MANZANAS_PADRON_ENE_2026 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_MANZANAS_PADRON_ENE_2025 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_MANZANAS_PADRON_ENE_2024 = os.path.join(ruta, "qlr", "_población_Manzanas_enero_2024.qlr")
+PATH_MANZANAS_PADRON_ENE_2023 = os.path.join(ruta, "qlr", "_población_Manzanas_enero_2023.qlr")
+
+
+# RUTA -> DATOS DEL CENSO -> SECCIONES CENSALES
+PATH_SECCIONES_2025 = os.path.join(ruta, "qlr", "_Secciones_Censales_diciembre_2025.qlr")
+PATH_SECCIONES_2024 = os.path.join(ruta, "qlr", "_Secciones_Censales_junio_2024.qlr")
+#PATH_SECCIONES_MAY_2023 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_SECCIONES_JUL_2023 = os.path.join(ruta, "qlr", "_Secciones_Censales_julio_2023.qlr")
+PATH_SECCIONES_2019 = os.path.join(ruta, "qlr", "_Secciones_Censales_nov_2019.qlr")
+
+# RUTA -> DATOS DEL CENSO -> COLEGIOS ELECTORALES
+PATH_COLEGIOS_2025 = os.path.join(ruta, "qlr", "_colegios_Electorales_diciembre_2025.qlr")
+PATH_COLEGIOS_2024 = os.path.join(ruta, "qlr", "_colegios_Electorales_junio_2024.qlr")
+#PATH_COLEGIOS_MAY_2023 = os.path.join(ruta, "qlr", "_arbolado.qlr")#generar los wsm y poner los qlr
+PATH_COLEGIOS_JUL_2023 = os.path.join(ruta, "qlr", "_colegios_Electorales_julio_2023.qlr")
+PATH_COLEGIOS_2019 = os.path.join(ruta, "qlr", "_colegios_Electorales_2019.qlr")
+
+# RUTA -> RESULTADOS ELECTORALES -> MUNICIPALES
+PATH_MUNICIPALES_MAYO_2023 = os.path.join(ruta, "qlr", "_elecciones_municipales_2023.qlr")
+PATH_MUNICIPALES_MAYO_2019 = os.path.join(ruta, "qlr", "_elecciones_municipales_2019.qlr")
+PATH_MUNICIPALES_MAYO_2015 = os.path.join(ruta, "qlr", "_elecciones_municipales_2015.qlr")
+PATH_MUNICIPALES_MAYO_2007 = os.path.join(ruta, "qlr", "_elecciones_municipales_2007.qlr")
+
+# RUTA -> RESULTADOS ELECTORALES -> AUTONOMICAS
+PATH_AUTONOMICAS_DICIEMBRE_2025 = os.path.join(ruta, "qlr", "_elecciones_autonómicas_2025.qlr")
+PATH_AUTONOMICAS_MAYO_2023 = os.path.join(ruta, "qlr", "_elecciones_autonómicas_2023.qlr")
+PATH_AUTONOMICAS_MAYO_2019 = os.path.join(ruta, "qlr", "_elecciones_autonómicas_2019.qlr")
+PATH_AUTONOMICAS_MAYO_2007 = os.path.join(ruta, "qlr", "_elecciones_autonómicas_2007.qlr")
+
+# RUTA -> RESULTADOS ELECTORALES -> GENERALES
+PATH_GENERALES_JULIO_2023 = os.path.join(ruta, "qlr", "_elecciones_generales_al_congreso_Julio_2023.qlr")
+PATH_GENERALES_NOVIEMBRE_2019 = os.path.join(ruta, "qlr", "_elecciones_generales_al_congreso_Nov_2019.qlr")
+PATH_GENERALES_ABRIL_2019 = os.path.join(ruta, "qlr", "_elecciones_generales_al_congreso_Abr_2019.qlr")
+PATH_GENERALES_JUNIO_2016 = os.path.join(ruta, "qlr", "_elecciones_generales_al_congreso_2016.qlr")
+
+# RUTA -> RESULTADOS ELECTORALES -> EUROPEAS
+PATH_EUROPEAS_JUNIO_2024 = os.path.join(ruta, "qlr", "_elecciones_Europeas_Junio_2024.qlr")
+PATH_EUROPEAS_MAYO_2019 = os.path.join(ruta, "qlr", "_elecciones_Europeas_2019.qlr")
+
+
 # RUTA -> TEMATICOS
+#PATH_AMIANTO = os.path.join(ruta, "qlr", "_amianto.qlr")#hacer qrl ya que estos estan en vectoriales y actualizar datos
+#PATH_PANELES_SOLARES = os.path.join(ruta, "qlr", "_paneles_solares.qlr")#hacer qrl ya que estos estan en vectoriales y actualizar datos
 PATH_GEOLOGICO_MINERO = os.path.join(ruta, "qlr", "_mapa_geologico_minero.qlr")
 PATH_MAPA_PENDIENTES = os.path.join(ruta, "qlr", "_mapa_de_pendientes.qlr")
 PATH_RELIEVE = os.path.join(ruta, "qlr", "_relieve.qlr")
+PATH_LIDAR = os.path.join(ruta, "qlr", "_LIDAR.qlr")
 
 # ******************************** ASIGNACIÓN PARA DESPLEGABLE VENTANA EMERGENTE CARTOGRAFIA
 
@@ -391,9 +520,7 @@ urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1975]={"path":PATH_CARTOGRAF
 urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1981]={"path":PATH_CARTOGRAFIA_ESCANEADA_1981}
 urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1984]={"path":PATH_CARTOGRAFIA_ESCANEADA_1984}
 urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E2000]={"path":PATH_CARTOGRAFIA_ESCANEADA_1993_E2000}
-urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E2000T]={"path":PATH_CARTOGRAFIA_ESCANEADA_1993_E2000T}
 urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E5000]={"path":PATH_CARTOGRAFIA_ESCANEADA_1993_E5000}
-urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_1993_E5000T]={"path":PATH_CARTOGRAFIA_ESCANEADA_1993_E5000T}
 urbana_escaneada[NOMBRE_GRUPO_CARTOGRAFIA_ESCANEADA_PLANIMETRIA_HISTORICA]={"path":PATH_CARTOGRAFIA_ESCANEADA_PLANIMETRIA_HISTORICA}
 
 # listado de capas de planos escaneados
@@ -487,3 +614,87 @@ mobiliario_urbano={}
 mobiliario_urbano[NOMBRE_GRUPO_BANCOS_ASIENTO]={"path":PATH_BANCOS_ASIENTO}
 mobiliario_urbano[NOMBRE_GRUPO_FUENTES_PUBLICAS]={"path":PATH_FUENTES_PUBLICAS}
 mobiliario_urbano[NOMBRE_GRUPO_PAPELERAS]={"path":PATH_PAPELERAS}
+# ******************************** ASIGNACIÓN PARA DESPLEGABLE VENTANA EMERGENTE ESTADISTICAS
+
+# listado de capas de barrios
+
+barrios={}
+barrios[NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2026]={"path":PATH_BARRIOS_PADRON_ENE_2026}
+barrios[NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2025]={"path":PATH_BARRIOS_PADRON_ENE_2025}
+barrios[NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2024]={"path":PATH_BARRIOS_PADRON_ENE_2024}
+barrios[NOMBRE_GRUPO_BARRIOS_PADRON_ENE_2023]={"path":PATH_BARRIOS_PADRON_ENE_2023}
+barrios[NOMBRE_GRUPO_BARRIOS_PADRON_AGO_2022]={"path":PATH_BARRIOS_PADRON_AGO_2022}
+
+# listado de capas de calles
+
+calles={}
+calles[NOMBRE_GRUPO_CALLES_PADRON_ENE_2026]={"path":PATH_CALLES_PADRON_ENE_2026}
+calles[NOMBRE_GRUPO_CALLES_PADRON_ENE_2025]={"path":PATH_CALLES_PADRON_ENE_2025}
+calles[NOMBRE_GRUPO_CALLES_PADRON_ENE_2024]={"path":PATH_CALLES_PADRON_ENE_2024}
+calles[NOMBRE_GRUPO_CALLES_PADRON_ENE_2023]={"path":PATH_CALLES_PADRON_ENE_2023}
+calles[NOMBRE_GRUPO_CALLES_PADRON_AGO_2022]={"path":PATH_CALLES_PADRON_AGO_2022}
+
+# listado de capas de poblacion secciones
+
+poblacion_secciones={}
+poblacion_secciones[NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2026]={"path":PATH_SECCIONES_PADRON_ENE_2026}
+poblacion_secciones[NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2025]={"path":PATH_SECCIONES_PADRON_ENE_2025}
+poblacion_secciones[NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2024]={"path":PATH_SECCIONES_PADRON_ENE_2024}
+poblacion_secciones[NOMBRE_GRUPO_SECCIONES_PADRON_ENE_2023]={"path":PATH_SECCIONES_PADRON_ENE_2023}
+
+# listado de capas de poblacion por manzanas 
+
+poblacion_manzanas={}
+poblacion_manzanas[NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2026]={"path":PATH_MANZANAS_PADRON_ENE_2026}
+poblacion_manzanas[NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2025]={"path":PATH_MANZANAS_PADRON_ENE_2025}
+poblacion_manzanas[NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2024]={"path":PATH_MANZANAS_PADRON_ENE_2024}
+poblacion_manzanas[NOMBRE_GRUPO_MANZANAS_PADRON_ENE_2023]={"path":PATH_MANZANAS_PADRON_ENE_2023}
+
+
+# listado de capas de secciones censales
+
+secciones_censales={}
+secciones_censales[NOMBRE_GRUPO_SECCIONES_2025]={"path":PATH_SECCIONES_2025}
+secciones_censales[NOMBRE_GRUPO_SECCIONES_2024]={"path":PATH_SECCIONES_2024}
+#secciones_censales[NOMBRE_GRUPO_SECCIONES_MAY_2023]={"path":PATH_SECCIONES_MAY_2023}#generar los wsm
+secciones_censales[NOMBRE_GRUPO_SECCIONES_JUL_2023]={"path":PATH_SECCIONES_JUL_2023}
+secciones_censales[NOMBRE_GRUPO_SECCIONES_2019]={"path":PATH_SECCIONES_2019}
+
+# listado de capas de colegios electorales
+
+colegios_electorales={}
+colegios_electorales[NOMBRE_GRUPO_COLEGIOS_2025]={"path":PATH_COLEGIOS_2025}
+colegios_electorales[NOMBRE_GRUPO_COLEGIOS_2024]={"path":PATH_COLEGIOS_2024}
+#colegios_electorales[NOMBRE_GRUPO_COLEGIOS_MAY_2023]={"path":PATH_COLEGIOS_MAY_2023}#generar los wsm
+colegios_electorales[NOMBRE_GRUPO_COLEGIOS_JUL_2023]={"path":PATH_COLEGIOS_JUL_2023}
+colegios_electorales[NOMBRE_GRUPO_COLEGIOS_2019]={"path":PATH_COLEGIOS_2019}
+
+# listado de capas de municipales
+
+municipales={}
+municipales[NOMBRE_GRUPO_MUNICIPALES_MAYO_2023]={"path":PATH_MUNICIPALES_MAYO_2023}
+municipales[NOMBRE_GRUPO_MUNICIPALES_MAYO_2019]={"path":PATH_MUNICIPALES_MAYO_2019}
+municipales[NOMBRE_GRUPO_MUNICIPALES_MAYO_2015]={"path":PATH_MUNICIPALES_MAYO_2015}
+municipales[NOMBRE_GRUPO_MUNICIPALES_MAYO_2007]={"path":PATH_MUNICIPALES_MAYO_2007}
+
+# listado de capas de autonomicas
+
+autonomicas={}
+autonomicas[NOMBRE_GRUPO_AUTONOMICAS_DICIEMBRE_2025]={"path":PATH_AUTONOMICAS_DICIEMBRE_2025}
+autonomicas[NOMBRE_GRUPO_AUTONOMICAS_MAYO_2023]={"path":PATH_AUTONOMICAS_MAYO_2023}
+autonomicas[NOMBRE_GRUPO_AUTONOMICAS_MAYO_2019]={"path":PATH_AUTONOMICAS_MAYO_2019}
+autonomicas[NOMBRE_GRUPO_AUTONOMICAS_MAYO_2007]={"path":PATH_AUTONOMICAS_MAYO_2007}
+
+# listado de capas de generales
+
+generales={}
+generales[NOMBRE_GRUPO_GENERALES_JULIO_2023]={"path":PATH_GENERALES_JULIO_2023}
+generales[NOMBRE_GRUPO_GENERALES_NOVIEMBRE_2019]={"path":PATH_GENERALES_NOVIEMBRE_2019}
+generales[NOMBRE_GRUPO_GENERALES_ABRIL_2019]={"path":PATH_GENERALES_ABRIL_2019}
+generales[NOMBRE_GRUPO_GENERALES_JUNIO_2016]={"path":PATH_GENERALES_JUNIO_2016}
+
+# listado de capas de europeas
+
+europeas={}
+europeas[NOMBRE_GRUPO_EUROPEAS_JUNIO_2024]={"path":PATH_EUROPEAS_JUNIO_2024}
+europeas[NOMBRE_GRUPO_EUROPEAS_MAYO_2019]={"path":PATH_EUROPEAS_MAYO_2019}
